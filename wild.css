@@ -1,0 +1,133 @@
+body{
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 135px;
+}
+
+.head-work{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+}
+nav li {
+    list-style: none;
+    margin-right: 30px;
+}
+
+nav li a {
+    text-decoration: none;
+    color:#424247;
+text-align: center;
+font-size: 18px;
+font-weight: 400;
+}
+.head-1{
+    color: #131318;
+font-size: 36px;
+font-weight: 800;
+margin-left: 20px;
+}
+.head-2{
+color: #FF5400;
+font-size: 36px;
+font-weight: 800;
+margin-left: 20px;
+}
+.header-contain{
+    background: linear-gradient(80deg, #070211 0%, rgba(7,2,17,0)100%), url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    background-position: center; background-size: cover;
+     justify-content: center; border: 0;
+    border-radius: 15px; margin: 10px 140px;
+
+}
+.header-title{
+    color: #FFF;
+    font-size: 50px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 106px;
+}
+.header-discr{
+    color: #FFF;
+text-align: center;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+justify-content: center;
+margin-left: 247px; margin-right: 247px; margin-top: 24px;
+}
+.header-details{
+    text-align: center;
+    padding-bottom: 106px;
+    margin: 64px;
+
+}
+.but{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+color: #FFF; cursor: pointer;
+border: 0;
+}
+
+.middle{
+    display: flex;
+   justify-content: space-between;
+   margin: 0 135px;
+   gap: 53px;
+}
+.midle-head{
+    color: #131318;
+font-size: 40px;
+font-weight: 800;
+}
+.middle-disc-1{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+ margin-top: 24px; margin-bottom: 24px;
+}
+.middle-disc-2{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 24px;
+    line-height: 26px;
+}
+
+
+
+
+ul li{
+    color: rgba(19, 19, 24, 0.70);
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+}
+.discusson{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.row {
+    height: auto;
+ margin-top: 45px;
+ margin-left: 135px;
+}
+.row .yes{
+    margin-right: 24px; 
+    margin-bottom: 24px;
+}
+.row .no{
+  margin-bottom: 24px;
+}
